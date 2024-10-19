@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolos de Red</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Protocolos de Red</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Volver a Contenidos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Protocolos de Red: TCP/IP y OSI</h2>
+
+        <div class="protocol">
+            <h3>TCP/IP (EN USO)</h3>
+            <p><strong>Internet Protocol (IP):</strong> Este protocolo se encarga de direccionar y enrutar los datos a través de la red. Utiliza direcciones IP únicas para identificar cada dispositivo en la red y divide los datos en paquetes que viajan por diversas rutas hasta llegar a su destino.</p>
+            <p><strong>Transmission Control Protocol (TCP):</strong> TCP asegura la entrega fiable de los datos. Antes de transmitir los datos, establece una conexión entre el emisor y el receptor, controla el flujo de información y verifica que los paquetes lleguen en el orden correcto. Si algún paquete se pierde o se corrompe, TCP solicita su retransmisión para garantizar la integridad de la comunicación.</p>
+            <h4>Proceso de Comunicación TCP/IP:</h4>
+            <ul>
+                <li><strong>Físico:</strong> Controla los dispositivos físicos de una red.</li>
+                <li><strong>Enlace:</strong> Acceso a la red.</li>
+                <li><strong>Red:</strong> Determina la mejor ruta para los datos.</li>
+                <li><strong>Transporte:</strong> Admite la comunicación entre los nodos de la red.</li>
+                <li><strong>Aplicación:</strong> Apps que se utilizan para usar servicios de la red.</li>
+            </ul>
+            <h4>Características Principales:</h4>
+            <ul>
+                <li><strong>Interoperabilidad:</strong> Facilita la comunicación entre diferentes redes y dispositivos.</li>
+                <li><strong>Fiabilidad:</strong> Asegura la correcta entrega y orden de los datos.</li>
+                <li><strong>Escalabilidad:</strong> Soporta un gran número de dispositivos y redes.</li>
+            </ul>
+            <p><strong>Resumen:</strong> TCP/IP es crucial para el funcionamiento de Internet, ya que permite la transmisión eficiente y segura de datos entre dispositivos en una red global.</p>
+        </div>
+
+        <div class="protocol">
+            <h3>OSI (EN DESUSO)</h3>
+            <p><strong>Descripción:</strong> El modelo OSI (Open Systems Interconnection) es un marco conceptual que estandariza las funciones de comunicación en redes de computadoras en siete capas distintas. Facilita la interoperabilidad entre diferentes sistemas y tecnologías de red al definir un conjunto de protocolos y servicios en cada capa.</p>
+            <h4>Las Siete Capas del Modelo OSI:</h4>
+            <ul>
+                <li><strong>Capa Física:</strong> Transmite los datos a través del medio físico (cables, señales).</li>
+                <li><strong>Capa de Enlace de Datos:</strong> Asegura una comunicación sin errores entre dispositivos en una red local.</li>
+                <li><strong>Capa de Red:</strong> Dirige y enruta los datos entre diferentes redes usando direcciones IP.</li>
+                <li><strong>Capa de Transporte:</strong> Garantiza la entrega correcta de datos entre sistemas finales y maneja el control de flujo y errores.</li>
+                <li><strong>Capa de Sesión:</strong> Establece, mantiene y termina sesiones de comunicación entre aplicaciones.</li>
+                <li><strong>Capa de Presentación:</strong> Traduce y formatea los datos para que sean entendidos por las aplicaciones, manejando codificación y cifrado.</li>
+                <li><strong>Capa de Aplicación:</strong> Proporciona servicios de red directamente a las aplicaciones de usuario (correo electrónico, navegación web).</li>
+            </ul>
+            <h4>Características Principales del Modelo OSI:</h4>
+            <ul>
+                <li><strong>Modularidad:</strong> Permite el diseño y la implementación de redes en capas separadas, facilitando la integración y la actualización de componentes.</li>
+                <li><strong>Interoperabilidad:</strong> Establece estándares para la comunicación entre diferentes sistemas y tecnologías.</li>
+                <li><strong>Abstracción:</strong> Proporciona una separación clara entre las funciones de red, simplificando el diagnóstico y la resolución de problemas.</li>
+            </ul>
+            <p><strong>Resumen:</strong> Aunque el modelo OSI es principalmente un concepto de referencia hoy en día, sigue siendo útil para comprender y diseñar la arquitectura de redes, además de ser fundamental en la formación académica sobre redes de comunicación.</p>
+        </div>
+
+        <!-- Botones de navegación -->
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="estructura.html" class="button">Volver a Estructura</a>
+            <a href="contenidos.html" class="button">Volver a Contenidos</a>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 20px;">
+        <p>&copy; 2024 Estructura y Funcionamiento en Sistemas Informáticos</p>
+    </footer>
+</body>
+</html>

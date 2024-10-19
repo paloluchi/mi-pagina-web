@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topologías de Red</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Topologías de Red</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Volver a Contenidos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Topologías de Red</h2>
+
+        <div class="topology">
+            <h3>BUS</h3>
+            <p><strong>Descripción:</strong> Topología en la que todos los nodos están conectados a un único cable o bus central, que actúa como el canal de comunicación.</p>
+            <p class="advantage"><strong>Ventaja:</strong> Simple y económica, fácil de instalar para redes pequeñas. Requiere menos cableado que otras topologías.</p>
+            <p class="disadvantage"><strong>Desventaja:</strong> Si el bus falla, toda la red se ve afectada. El rendimiento puede disminuir con muchos dispositivos.</p>
+        </div>
+
+        <div class="topology">
+            <h3>ANILLO</h3>
+            <p><strong>Descripción:</strong> Los nodos están conectados en un círculo cerrado, donde cada dispositivo está conectado al siguiente y al anterior. Los datos viajan en una dirección determinada.</p>
+            <p class="advantage"><strong>Ventaja:</strong> Buen rendimiento y fácil de instalar en redes de tamaño mediano.</p>
+            <p class="disadvantage"><strong>Desventaja:</strong> Un fallo en un nodo puede afectar a toda la red, ya que el anillo se rompe.</p>
+        </div>
+
+        <div class="topology">
+            <h3>MALLA</h3>
+            <p><strong>Descripción:</strong> Cada nodo está conectado a todos los demás nodos en la red, proporcionando múltiples rutas de conexión.</p>
+            <p class="advantage"><strong>Ventaja:</strong> Alta redundancia y fiabilidad, útil para aplicaciones críticas.</p>
+            <p class="disadvantage"><strong>Desventaja:</strong> Costosa y complicada de instalar debido a la cantidad de cableado y conexiones que requiere.</p>
+        </div>
+
+        <div class="topology">
+            <h3>ESTRELLA</h3>
+            <p><strong>Descripción:</strong> Todos los nodos están conectados a un dispositivo central, como un switch o un hub, que actúa como el punto de conexión para la comunicación.</p>
+            <p class="advantage"><strong>Ventaja:</strong> Fácil de gestionar y de añadir nuevos dispositivos. Si un enlace a un dispositivo falla, el resto de la red sigue funcionando.</p>
+            <p class="disadvantage"><strong>Desventaja:</strong> Si el dispositivo central falla, toda la red se ve afectada.</p>
+        </div>
+
+        <div class="topology">
+            <h3>CELULAR</h3>
+            <p><strong>Descripción:</strong> Red organizada en células o áreas geográficas, cada una con una estación base que proporciona cobertura para los dispositivos móviles.</p>
+            <p class="advantage"><strong>Ventaja:</strong> Permite la comunicación móvil en grandes áreas y tiene buena cobertura.</p>
+            <p class="disadvantage"><strong>Desventaja:</strong> Requiere una infraestructura extensa y puede haber problemas de interferencia.</p>
+        </div>
+
+        <!-- Botones de navegación -->
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="estructura.html" class="button">Volver a Estructura</a>
+            <a href="contenidos.html" class="button">Volver a Contenidos</a>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 20px;">
+        <p>&copy; 2024 Estructura y Funcionamiento en Sistemas Informáticos</p>
+    </footer>
+</body>
+</html>

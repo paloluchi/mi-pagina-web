@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Redes y Servidores</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tipos de Redes y Servidores</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Volver a Contenidos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Tipos de Redes</h2>
+        <div class="network">
+            <h3>Red Doméstica</h3>
+            <p><strong>Wi-Fi:</strong> Dispositivos como teléfonos, notebooks y consolas conectados a un router de forma inalámbrica, permitiendo la movilidad dentro del hogar.</p>
+            <p><strong>Cableada:</strong> Conexión de computadoras y dispositivos directamente al router mediante cables Ethernet, ofreciendo una mayor estabilidad y velocidad de conexión.</p>
+            <p><strong>Transmisión Móvil:</strong> Los teléfonos se conectan a antenas (2G, 3G, 4G, 5G) que vinculan con nodos de la empresa telefónica y centrales de proveedores de Internet, permitiendo la conectividad fuera del hogar.</p>
+            <p><strong>Internet Satelital:</strong> Utiliza antenas parabólicas para recibir y enviar señales a satélites, permitiendo el acceso a Internet en áreas remotas donde otros métodos no están disponibles.</p>
+            <p><strong>Cajas Distribuidoras:</strong> Distribuyen Internet de ISPs (Proveedores de Servicios de Internet) en diferentes zonas, permitiendo que múltiples hogares se conecten a la red.</p>
+        </div>
+
+        <div class="network">
+            <h3>Redes Empresariales y Data Centers</h3>
+            <p><strong>Data Centers:</strong> Espacios físicos que albergan numerosas computadoras y servidores, encargados de almacenar y gestionar grandes volúmenes de información. Ejemplos: Datacom, GigaRed, Claro.</p>
+            <p><strong>Redes Empresariales:</strong> Redes diseñadas para conectar computadoras, servidores y otros dispositivos dentro de una empresa, asegurando la comunicación y el intercambio de datos de manera segura.</p>
+        </div>
+
+        <h2>Tipos de Servidores</h2>
+        <div class="server">
+            <h3>Servidor FTP</h3>
+            <p><strong>Descripción:</strong> Permite la transferencia de archivos entre computadoras a través de la red de forma segura, utilizando el protocolo FTP (File Transfer Protocol). Es comúnmente utilizado para subir y descargar archivos en sitios web y servidores remotos.</p>
+            <p class="advantage"><strong>Ventaja:</strong> Facilita la transferencia de grandes volúmenes de datos y permite controlar el acceso mediante autenticación de usuarios.</p>
+            <p class="disadvantage"><strong>Desventaja:</strong> Puede ser vulnerable si no se implementan medidas de seguridad adicionales, como el uso de FTP seguro (FTPS) o SFTP.</p>
+        </div>
+
+        <div class="server">
+            <h3>Servidor Proxy</h3>
+            <p><strong>Descripción:</strong> Actúa como intermediario entre el usuario y el servidor final, ocultando la dirección IP del usuario y mejorando la seguridad. También se utiliza para acceder a contenido restringido y optimizar el uso de ancho de banda.</p>
+            <p class="advantage"><strong>Ventaja:</strong> Mejora la privacidad y la seguridad de la navegación, además de permitir el acceso a contenidos bloqueados o restringidos.</p>
+            <p class="disadvantage"><strong>Desventaja:</strong> Puede reducir la velocidad de conexión si no está bien configurado o si la capacidad del servidor es limitada.</p>
+        </div>
+
+        <div class="server">
+            <h3>Servidores Web</h3>
+            <p><strong>Descripción:</strong> Almacenan y entregan contenido web a los usuarios a través de Internet. Son fundamentales para la existencia de sitios web, aplicaciones web y servicios en la nube.</p>
+            <p><strong>Tipos:</strong></p>
+            <ul>
+                <li><strong>Hosting Compartido:</strong> Varios sitios web comparten el mismo servidor, lo que reduce costos, pero puede limitar los recursos asignados a cada sitio.</li>
+                <li><strong>Hosting Dedicado:</strong> Un servidor exclusivo para un solo cliente, ofreciendo mayor control, rendimiento y personalización de la configuración del servidor.</li>
+            </ul>
+            <p class="advantage"><strong>Ventaja:</strong> Adaptable a las necesidades del cliente, desde opciones económicas con hosting compartido hasta soluciones personalizadas con hosting dedicado.</p>
+            <p class="disadvantage"><strong>Desventaja:</strong> El costo de un servidor dedicado puede ser elevado, y la administración de un servidor web requiere conocimientos técnicos avanzados.</p>
+        </div>
+
+        <!-- Botones de navegación -->
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="estructura.html" class="button">Volver a Estructura</a>
+            <a href="contenidos.html" class="button">Volver a Contenidos</a>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 20px;">
+        <p>&copy; 2024 Estructura y Funcionamiento en Sistemas Informáticos</p>
+    </footer>
+</body>
+</html>
