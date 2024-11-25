@@ -120,6 +120,16 @@ img {
     background: #0d47a1;
 }
 
+/* Estilos para el video */
+.video-player {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
 /* Pie de página */
 footer {
     background: linear-gradient(135deg, #1f1f1f, #0d47a1);
